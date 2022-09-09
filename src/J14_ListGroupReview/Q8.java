@@ -21,7 +21,19 @@ public class Q8 {
 
         System.out.println(Arrays.toString(isimler));
 
-        List<String> isimlerList=new ArrayList<>();
+        List<String> isimlerList=new ArrayList<>(List.of("Umit","Emin","Kemal","Kerem","Taylan","Orhan","Sinan","Furkan","Ahmet","Ali"));
+
+        String eleman3=isimlerList.get(2);
+
+        String eleman8=isimlerList.get(7);
+
+        isimlerList.set(2, eleman8);
+        isimlerList.set(7, eleman3);
+
+        System.out.println(isimlerList);
+
+
+        /*List<String> isimlerList=new ArrayList<>();
         for (String each: isimler) {
             isimlerList.add(each);
         }
@@ -34,7 +46,7 @@ public class Q8 {
         isimlerList.set(7, eleman3);
 
         System.out.println(isimlerList);
-
+*/
 
 
 

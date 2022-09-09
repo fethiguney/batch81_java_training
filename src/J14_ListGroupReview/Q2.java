@@ -1,8 +1,6 @@
 package J14_ListGroupReview;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Q2 {
     public static void main(String[] args) {
@@ -17,6 +15,8 @@ public class Q2 {
         String [][] arr={{"Ali","Veli","Ayse"},{"Hasan","Can"},{"Suzan"}};
 
         turnMultiDimensionArraytoNaturalList(arr);
+
+
 
     }
 
